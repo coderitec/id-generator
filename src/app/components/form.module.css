@@ -1,0 +1,58 @@
+.form{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+/* first section  */
+.form > section:first-of-type{
+    padding-block: 20vh;
+    background: linear-gradient(90deg, rgba(33, 118, 2, 0.7), rgb(43, 193, 43));
+    text-align: center;
+}
+
+
+.form > section:first-of-type h2{
+    font-size: 2rem;
+    color: white;
+}
+
+.form > section:first-of-type p{
+    font-size: 1rem;
+   font-style: italic;
+    color: white;
+    padding-block: 2vh;
+}
+
+/* second section */
+.form > section:last-of-type{
+    padding-block: 20vh;
+    background-color: white;
+    padding-inline: 1rem;
+}
+.form > section:last-of-type h1{
+    text-transform: capitalize;
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(11, 233, 11);
+}
+.form > section:last-of-type input, .form > section:last-of-type select{
+    width: 90%;
+    padding: 1rem;
+    margin-block: 1rem;
+    border: 1px solid rgb(11, 233, 11);
+    border-radius: 50px;
+    outline: 2px solid rgb(11, 233, 11);
+}
+.form > section:last-of-type button{
+    width: 90%;
+    padding: 1rem;
+    margin-block: 1rem;
+    border: 1px solid rgb(11, 233, 11);
+    border-radius: 50px;
+    outline: 2px solid rgb(11, 233, 11);
+    background-color: rgb(11, 233, 11);
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
